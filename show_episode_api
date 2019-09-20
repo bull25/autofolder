@@ -1,0 +1,44 @@
+{
+  "data": {
+    "id": 6704751,
+    "airedSeason": 3,
+    "airedSeasonID": 766339,
+    "airedEpisodeNumber": 2,
+    "episodeName": "The Brainy Bunch",
+    "firstAired": "2018-10-04",
+    "guestStars": [],
+    "director": "|Jude Weng|",
+    "directors": [
+      "Jude Weng"
+    ],
+    "writers": [
+      "Dan Schofield"
+    ],
+    "overview": "Intent on wrecking Michael's plans, Trevor shows up on Earth to join Chidi's study and annoy the gang into breaking up.",
+    "language": {
+      "episodeName": "en",
+      "overview": "en"
+    },
+    "productionCode": "",
+    "showUrl": "",
+    "lastUpdated": 1555512823,
+    "dvdDiscid": "",
+    "dvdSeason": 3,
+    "dvdEpisodeNumber": 2,
+    "dvdChapter": null,
+    "absoluteNumber": 27,
+    "filename": "episodes/311711/6704751.jpg",
+    "seriesId": 311711,
+    "lastUpdatedBy": 435425,
+    "airsAfterSeason": null,
+    "airsBeforeSeason": null,
+    "airsBeforeEpisode": null,
+    "thumbAuthor": 235,
+    "thumbAdded": "2018-10-06 07:46:57",
+    "thumbWidth": "400",
+    "thumbHeight": "225",
+    "imdbId": "tt8601200",
+    "siteRating": 6,
+    "siteRatingCount": 1
+  }
+}
