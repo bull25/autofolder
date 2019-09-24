@@ -1,19 +1,12 @@
+import os, sys, glob
+
 # 1 Check to see if directory is empty
-
-import os, sys
-
-if len(os.listdir('/Users/bull/Documents/AutoFolder/temp/')) == 0:
-    sys.exit()
-
 # 2 Define variable that lists all video file types
 # 3 Loop through folder to remove all non video files
 
-else:
-	for root, dirs, files in os.walk("."):
-	    for name in files:
-	        print(name)
-	    for name in dirs:
-	        print(name)
+os.chdir("/Users/bull/GitHub/autofolder/")
+for file in glob.glob("*.py"):
+    print(file)
 
 # 4 Define whether or not the selected file is a movie or a show
 # 5 Grab metadata from moviedb (https://api.themoviedb.org)
