@@ -1,8 +1,8 @@
-# 1 Check to see if directory is empty
-
 import os, sys
 
-if len(os.listdir('/Users/bull/Documents/AutoFolder/temp/')) == 0:
+# 1 Check to see if directory is empty
+
+if len(os.listdir('/Users/bull/GitHub/autofolder/')) == 0:
     sys.exit()
 
 # 2 Define variable that lists all video file types
