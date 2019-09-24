@@ -4,9 +4,11 @@ import os, sys, glob
 # 2 Define variable that lists all video file types
 # 3 Loop through folder to remove all non video files
 
-os.chdir("/Users/bull/GitHub/autofolder/")
-for file in glob.glob("*.py"):
-    print(file)
+types = ('*.py', '*.txt') # the tuple of file types
+movie_files = []
+for files in types:
+    movie_files.extend(glob.glob(files))
+print(movie_files)   
 
 # 4 Define whether or not the selected file is a movie or a show
 # 5 Grab metadata from moviedb (https://api.themoviedb.org)

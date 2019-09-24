@@ -1,4 +1,4 @@
-import os, sys
+import os, sys, glob
 
 # 1 Check to see if directory is empty
 
